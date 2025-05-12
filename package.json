@@ -16,7 +16,7 @@
     "eleventy",
     "tailwind"
   ],
-  "author": "Alex Morgan",
+  "author": "Sophia Dengo",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
