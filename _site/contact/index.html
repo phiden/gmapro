@@ -1,0 +1,110 @@
+
+---
+layout: base.njk
+title: Work With Me
+description: Get in touch to discuss your project and how we can collaborate.
+---
+
+<section class="usa-section bg-base-lightest">
+  <div class="grid-container">
+    <h1 class="font-heading-xl text-center margin-bottom-2">Work With Me</h1>
+    <p class="font-sans-lg text-center margin-bottom-5 maxw-mobile-lg margin-x-auto">Ready to bring your story to life? Get in touch to discuss your project and how we can collaborate.</p>
+
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4 margin-bottom-4">
+        <h2>Let's Connect</h2>
+        <p>I'm available for documentary projects, news assignments, and consulting work worldwide. Please provide details about your project, timeline, and location in your message.</p>
+
+        <div class="margin-bottom-4">
+          <div class="margin-bottom-2 display-flex flex-align-center">
+            <svg class="usa-icon text-primary margin-right-1" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/uswds-assets/img/sprite.svg#mail"></use>
+            </svg>
+            <a href="mailto:alex@example.com">alex@example.com</a>
+          </div>
+          <div class="margin-bottom-2 display-flex flex-align-center">
+            <svg class="usa-icon text-primary margin-right-1" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/uswds-assets/img/sprite.svg#phone"></use>
+            </svg>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+          </div>
+          <div class="margin-bottom-2 display-flex flex-align-center">
+            <svg class="usa-icon text-primary margin-right-1" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/uswds-assets/img/sprite.svg#map_pin"></use>
+            </svg>
+            <span>Based in New York, NY • Available Worldwide</span>
+          </div>
+        </div>
+
+        <div class="bg-white padding-3 border-1px border-base-lighter radius-md">
+          <h3 class="margin-top-0">Current Availability</h3>
+          <p class="margin-bottom-0">I'm currently booking projects for Q3 and Q4 2025. For urgent news assignments, please contact me directly by phone.</p>
+        </div>
+      </div>
+
+      <div class="tablet:grid-col-8 margin-bottom-4">
+        <div class="bg-white padding-3 border-1px border-base-lighter radius-md">
+          <h2 class="margin-top-0">Project Inquiry</h2>
+          <form class="usa-form" name="contact" method="POST" data-netlify="true">
+            <div class="grid-row grid-gap">
+              <div class="tablet:grid-col-6">
+                <label class="usa-label" for="first-name">First name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="first-name" name="first-name" type="text" required>
+              </div>
+              <div class="tablet:grid-col-6">
+                <label class="usa-label" for="last-name">Last name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="last-name" name="last-name" type="text" required>
+              </div>
+            </div>
+
+            <label class="usa-label" for="email">Email <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+            <input class="usa-input" id="email" name="email" type="email" required>
+
+            <label class="usa-label" for="organization">Organization</label>
+            <input class="usa-input" id="organization" name="organization" type="text">
+
+            <label class="usa-label" for="project-type">Project type <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+            <select class="usa-select" id="project-type" name="project-type" required>
+              <option value="">- Select -</option>
+              <option value="documentary">Documentary</option>
+              <option value="news">News/Journalism</option>
+              <option value="nonprofit">Non-profit</option>
+              <option value="commercial">Commercial</option>
+              <option value="consulting">Consulting/Training</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label class="usa-label" for="timeline">Project timeline <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+            <select class="usa-select" id="timeline" name="timeline" required>
+              <option value="">- Select -</option>
+              <option value="urgent">Urgent (Within 2 weeks)</option>
+              <option value="1-month">Within 1 month</option>
+              <option value="3-months">Within 3 months</option>
+              <option value="6-months">Within 6 months</option>
+              <option value="flexible">Flexible</option>
+            </select>
+
+            <label class="usa-label" for="message">Project details <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+            <textarea class="usa-textarea" id="message" name="message" rows="5" required></textarea>
+
+            <label class="usa-label" for="budget">Budget range</label>
+            <select class="usa-select" id="budget" name="budget">
+              <option value="">- Select -</option>
+              <option value="under-5k">Under $5,000</option>
+              <option value="5k-15k">$5,000 - $15,000</option>
+              <option value="15k-30k">$15,000 - $30,000</option>
+              <option value="30k-50k">$30,000 - $50,000</option>
+              <option value="50k-plus">$50,000+</option>
+              <option value="tbd">To be determined</option>
+            </select>
+
+            <label class="usa-label" for="referral">How did you hear about me?</label>
+            <input class="usa-input" id="referral" name="referral" type="text">
+
+            <button class="usa-button usa-button--big width-full margin-top-3" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

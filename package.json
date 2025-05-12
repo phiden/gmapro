@@ -1,0 +1,26 @@
+{
+  "name": "photography-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for a director of photography",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "postinstall": "npm run copy-uswds-assets",
+    "copy-uswds-assets": "mkdir -p uswds-assets && cp -r node_modules/@uswds/uswds/dist/* uswds-assets/"
+  },
+  "keywords": [
+    "photography",
+    "portfolio",
+    "eleventy",
+    "uswds"
+  ],
+  "author": "Alex Morgan",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@uswds/uswds": "^3.5.0"
+  }
+}
