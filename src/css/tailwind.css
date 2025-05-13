@@ -16,3 +16,9 @@
         @apply bg-white text-primary border-primary hover:bg-gray-50;
     }
 }
+
+@layer base {
+    p {
+        @apply pb-[16px];
+    }
+}
